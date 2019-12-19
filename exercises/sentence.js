@@ -7,6 +7,13 @@
  */
 
 // Your code:
+function sentence (arr){
+    let tmp = arr[0];
+    for (let i = 1; i < arr.length; i++){
+        tmp = tmp + ' ' + arr[i];
+    }
+    return tmp;
+}
 
 //* Begin of tests
 const assert = require('assert');
